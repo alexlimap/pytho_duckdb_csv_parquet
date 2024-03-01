@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-duckdb-csv-parquet"
+version = "0.1.0"
+description = ""
+authors = ["Alexandre Lima <alexandrepompeu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dask = {extras = ["complete"], version = "^2024.2.1"}
+polars = "^0.20.13"
+tqdm = "^4.66.2"
+duckdb = "^0.10.0"
+modin = "^0.27.0"
+dask-expr = "^0.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
